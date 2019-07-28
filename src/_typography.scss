@@ -1,0 +1,3 @@
+h1.fb-glitch {
+  @include textGlitch("glitch", 17, $teal-blue, $black, 820, 115, infinite);
+}

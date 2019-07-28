@@ -1,3 +1,8 @@
 body {
     padding-top: 60px;
+    background-color: #16232B;
+}
+
+div.title {
+    height: 100%;
 }

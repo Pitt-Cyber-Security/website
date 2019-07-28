@@ -1,0 +1,14 @@
+.navigation {
+    background-color: #1fb4ba !important;
+    /* background-color: #1c6469 !important; */
+    margin-top: -5px;
+}
+
+a.navbar-brand, a.nav-link {
+    font-size: 22px;
+}
+/*
+a.nav-link {
+    padding-left: 100px;
+} 
+*/

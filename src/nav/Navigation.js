@@ -4,11 +4,12 @@ import {
     Nav
 } from "react-bootstrap";
 import {Link} from "react-router-dom";
+import "./assets/style_nav.css"
 
 function Navigation() {
     return (
         <div>
-        <Navbar bg="light" expand="lg" fixed="top">
+        <Navbar className="navigation" bg="dark" variant="dark" expand="lg" fixed="top">
             <Navbar.Brand as={Link} to="/">
                 Home
             </Navbar.Brand>

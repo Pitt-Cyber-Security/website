@@ -1,0 +1,15 @@
+h1.fb-glitch {
+  font-family: 'b sina', 'b titr' , 'iran_sans', 'tahoma';
+  /* align: center; */
+}
+
+.fb-row-container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.typed-text {
+    font-family: 'b sina', 'b titr' , 'iran_sans', 'tahoma' !important;
+    color: #d2cd81 !important;
+}
