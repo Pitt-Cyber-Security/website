@@ -1,6 +1,7 @@
 h1.fb-glitch {
   font-family: 'b sina', 'b titr' , 'iran_sans', 'tahoma';
   /* align: center; */
+
 }
 
 .fb-row-container {
@@ -9,7 +10,31 @@ h1.fb-glitch {
     text-align: center;
 }
 
+.fb-container {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top:40%;
+    width: 60%;
+}
+
+.pittsburgh-image {
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .typed-text {
     font-family: 'b sina', 'b titr' , 'iran_sans', 'tahoma' !important;
     color: #d2cd81 !important;
+    margin-left: 0;
 }

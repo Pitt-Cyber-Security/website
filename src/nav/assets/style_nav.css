@@ -4,11 +4,15 @@
     margin-top: -5px;
 }
 
-a.navbar-brand, a.nav-link {
+a.navbar-brand {
     font-size: 22px;
+}
+
+a.nav-link {
+    font-size: 20px;
 }
 /*
 a.nav-link {
     padding-left: 100px;
-} 
+}
 */
