@@ -152,34 +152,6 @@ $rate-bar-bg: #2a5763;
   order: $val;
 }
 
-@mixin radios {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-
-  &:after, &:before {
-    content: "";
-    position: absolute;
-    border-radius: 50%;
-  }
-
-  &:after {
-    width: 16px;
-    height: 16px;
-    background: $main-blue;
-    border: 2px solid $teal-blue;
-    z-index: 1;
-  }
-
-  &:before {
-    display: none;
-    width: 8px;
-    height: 8px;
-    background: $yellow;
-    z-index: 2;
-  }
-}
-
 /* --------------------------------------------
  * --prefixes
  * -------------------------------------------- */
@@ -487,7 +459,7 @@ $breakpoint-large: 1386px;
 //  - navigation branding
 @font-face {
   font-family: 'puristabold';
-  src: url("fonts/purista_bold.woff2") format("woff2"), url("fonts/purista_bold.woff") format("woff");
+  src: url("./fonts/purista_bold.woff2") format("woff2"), url("fonts/purista_bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -1021,16 +993,6 @@ dd {
 input[type="radio"],
 input[type="checkbox"] {
   display: none;
-}
-
-/**
- * --the radio-like form elements
- */
-input[type="radio"] + label,
-.el--radio input[type="checkbox"] + label {
-  @include radios;
-
-  font-size: .86em;
 }
 
 input[type="radio"]:checked + label:before,

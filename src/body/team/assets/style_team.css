@@ -1,0 +1,42 @@
+.the-officers {
+    margin-left: 10px;
+}
+
+.member > div > img {
+    height: 200px;
+    width: 200px;
+    margin-right: 30px;
+}
+
+.member {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -25px;
+    margin-left: -1px;
+    padding: 20px;
+    /* border: 1px solid #8c8c8c; */
+    box-sizing: border-box;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background-color: #f6f6f6;
+}
+
+.member > .pict {
+    flex: 1 1 220 px;
+}
+
+.member > .info {
+    flex: 1 1 220px;
+}
+
+.title {
+    margin-left: 5px;
+    /* color: #4b99c7; */
+}
+
+.name {
+    color: #4b99c7;
+}

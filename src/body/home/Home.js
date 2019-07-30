@@ -2,7 +2,7 @@ import React from "react";
 import {Image} from "react-bootstrap";
 import ReactTypingEffect from "react-typing-effect";
 import "./assets/style_home.css";
-import "./assets/_typography.scss";
+// import "./assets/_typography.scss";
 
 function Home() {
     return (
