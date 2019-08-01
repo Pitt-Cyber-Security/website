@@ -18,7 +18,6 @@ function Navigation() {
                 <Nav className="mr-auto">
                     <Nav.Link as={Link} to="/team">Team</Nav.Link>
                     <Nav.Link as={Link} to="/events">Events</Nav.Link>
-                    <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
                     <Nav.Link as={Link} to="/lessons">Lessons</Nav.Link>
                     <Nav.Link as={Link} to="/writeups">Write Ups</Nav.Link>
                 </Nav>

@@ -2,6 +2,10 @@
     margin-left: 10px;
 }
 
+.members {
+    margin-top: -20px;
+}
+
 .member > div > img {
     height: 200px;
     width: 200px;
@@ -21,7 +25,6 @@
     transition: all 0.2s;
     box-sizing: border-box;
     word-wrap: break-word;
-    background-color: #f6f6f6;
 }
 
 .member > .pict {
@@ -38,5 +41,10 @@
 }
 
 .name {
-    color: #4b99c7;
+    color: #d2cd80;
+    font-family: 'puristalight', Courier, monospace;
+}
+
+.descript {
+    color: white;
 }
