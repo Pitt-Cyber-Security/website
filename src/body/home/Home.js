@@ -12,7 +12,6 @@ function Home() {
                     className="pittsburgh-image"
                     src={process.env.PUBLIC_URL + "/img/home/pittsburgh.png"}
                     alt="Home"
-                    fluid
                 />
             </div>
             <div className="fb-container fb-centered-main">
