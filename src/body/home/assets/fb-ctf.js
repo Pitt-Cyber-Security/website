@@ -1,26 +1,29 @@
-$(".typed-text").fb_typed({
+$('.typed-text').fb_typed({
   typeSpeed: 2,
-  showCursor: false
+  showCursor: false,
 });
 
 !(function($) {
   $.fn.fb_typed = function(passed_options) {
     return this.each(function() {
-      var $self = $(this),
-          text = $self.html();
+      const $self = $(this);
+      const text = $self.html();
 
       $self.empty().addClass('typing-initialized');
 
-      var options = $.extend({
-        strings: [text],
-        typeWords: false
-      }, passed_options);
+      const options = $.extend(
+        {
+          strings: [text],
+          typeWords: false,
+        },
+        passed_options,
+      );
 
       // If the typeWords option is set, then we want to type fast. So, we have
       // to separate the text by CHUNKS of characters rather than just characters.
       if (options.typeWords) {
-        var lines = text.split('<br>'),
-            lineIndex = 0;
+        const lines = text.split('<br>');
+        let lineIndex = 0;
 
         if (lines.length === 0) {
           return;
@@ -38,8 +41,8 @@ $(".typed-text").fb_typed({
             lineIndex++;
             renderLine(lines[lineIndex]);
           } else {
-            var chunkArray = chunk.match(/.{1,4}/g),
-                chunkIndex = 0;
+            const chunkArray = chunk.match(/.{1,4}/g);
+            let chunkIndex = 0;
 
             var chunkInterval = setInterval(function() {
               if (chunkArray[chunkIndex]) {
@@ -56,12 +59,10 @@ $(".typed-text").fb_typed({
         };
 
         renderLine(lines[lineIndex]);
-      }
-      else {
+      } else {
         // If the typedWords option is not enabled, then just usethe typed plugin
         $(this).typed(options);
       }
-
     });
   };
 })(jQuery);
