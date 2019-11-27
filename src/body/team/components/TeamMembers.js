@@ -17,7 +17,6 @@ function TeamMember(props) {
             <br />
             <strong className="name">Skills:</strong>
             <br />
-            {console.log(skills)}
             {skills.join(', ')}
           </div>
         </div>

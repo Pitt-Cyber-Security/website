@@ -2,3 +2,24 @@
     /* text-align: center; */
     font-weight: bold;
 }
+
+.selector {
+    color: white;
+}
+
+.btn-flat {
+    background-color: #58b2b8;
+    color: #16232B;
+    width: 98%;
+    margin: 5px;
+}
+
+.btn-flat:hover {
+    background-color: #d2cd81;
+    width: 98%;
+    margin: 5px;
+}
+
+.write-up-error {
+    color: white;
+}
